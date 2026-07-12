@@ -8,5 +8,3 @@ A repository containing Python projects related to biology. The objective of the
 Some of these projects were first coded in Google Colaboratory.
 
 ## Projects in Repository
-### DNA Analyzer
-A text-based program that counts the bases of an input DNA strand as well as calculates its GC content and generates its RNA and complementary strand.
