@@ -1,5 +1,5 @@
 # Obtain DNA sequence of interest
-DNA_string = input("Enter DNA sequence: ")
+DNA_string = input("Enter DNA sequence: ").upper()
 
 # Base Counter Function
 def DNA_base_counter(string):
@@ -27,6 +27,15 @@ def DNA_base_counter(string):
       T_count += 1
   
   return print(f"A: {A_count}, G: {G_count}, C: {C_count}, T: {T_count}")
+
+# GC Content Calculator
+def GC_content(string):
+  G_counts = string.count('G')
+  C_counts = string.count('C')
+
+  GC_content = ((G_counts + C_counts) / len(string)) * 100
+
+  return print(f"GC Content: {round(GC_content, 2)}%")
 
 # Comeplementary Strand Generator
 def DNA_complement(string):
@@ -65,3 +74,4 @@ if __name__ == "__main__":
     DNA_base_counter(DNA_string)
     DNA_complement(DNA_string)
     RNA_generator(DNA_string)
+    GC_content(DNA_string)
