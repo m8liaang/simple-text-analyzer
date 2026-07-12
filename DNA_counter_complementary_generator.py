@@ -1,3 +1,4 @@
+# Obtain DNA sequence of interest
 DNA_string = input("Enter DNA sequence: ")
 
 # Base Counter Function
@@ -25,8 +26,9 @@ def DNA_base_counter(string):
     else:
       T_count += 1
   
-  return A_count, G_count, C_count, T_count
+  return print(f"A: {A_count}, G: {G_count}, C: {C_count}, T: {T_count}")
 
+# Comeplementary Strand Generator
 def DNA_complement(string):
   complements = {
       'A' : 'T',
@@ -46,8 +48,20 @@ def DNA_complement(string):
         if key == char:
           DNA_complements += str(complements[f"{key}"])
   
-  return DNA_complements
+  return print(DNA_complements)
 
-# TO RUN FUNCTIONS/SEE RESULTS
-DNA_base_counter(DNA_string)
-DNA_complement(DNA_string)
+# RNA Strand Generator
+def RNA_generator(string):
+  allowed_characters = {'A', 'G', 'C', 'T'}
+
+  for char in string:
+    if char not in allowed_characters:
+      return print("DNA sequence is not valid. Please enter a valid DNA sequence to generate its RNA strand.")
+    else:
+      return print(string.replace('T', 'U'))
+
+# EXECUTE FUNCTIONS
+if __name__ == "__main__":
+    DNA_base_counter(DNA_string)
+    DNA_complement(DNA_string)
+    RNA_generator(DNA_string)
