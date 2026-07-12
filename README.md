@@ -9,4 +9,4 @@ Some of these projects were first coded in Google Colaboratory.
 
 ## Projects in Repository
 ### DNA Base Counter and Complementary Strand Generator
-A text-based program that counts the bases of an input DNA strand and generates its complementary strand.
+A text-based program that counts the bases of an input DNA strand and generates its RNA and complementary strand.
