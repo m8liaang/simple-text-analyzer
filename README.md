@@ -1,10 +1,30 @@
-# Biology in Python
-A repository containing Python projects in biology.
+# What Makes an Exoplanet Habitable?
 
 ## Overview
-A repository containing Python projects related to biology. The objective of these projects are to practice programming with Python in a biology setting. 
+An exploratory data analysis project of thousands of exoplanets ranking habitability based on Earth similarity in size, temperature, orbit, and star type. 
 
-## Python Libraries Used/Toolkit
-Some of these projects were first coded in Google Colaboratory.
+- Exploratory data analysis of thousands of exoplanets
+- Interactive plots showing where planets lie relative to their stars
+- A classification model to identify potentially habitable candidates
+- Feature importance to explain which variables matter most
 
-## Projects in Repository
+## Toolkit/Python Libraries Used
+pandas, numPy, matplotlib, seaborn, scikit-learn
+
+This project was coded in Google Colaboratory.
+
+## Analysis Performed
+Data cleaning and restructuring
+Exploratory data analysis
+Visualizations
+Classification
+Feature importance
+
+## Data Source
+Datasets: TESS Project Candidates and TESS Confirmed Planets
+Source: NASA Exoplanet Archive
+
+## Key Findings
+- Which stars are most likely to host habitable planets?
+- Which planetary properties matter most?
+- Can you predict whether a planet lies in the habitable zone?
