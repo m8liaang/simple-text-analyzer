@@ -1,6 +1,6 @@
 def parser(filename):
   try:
-    with open(txt) as text:
+    with open(filename) as text:
       text = text.read()
 
   except FileNotFoundError:
