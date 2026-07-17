@@ -9,8 +9,13 @@ re, pandas, matplotlib, wordcloud
 This project was coded in Google Colaboratory.
 
 my-project/
+
 ├── src/
+
 │   ├── components/
+
 │   └── index.js
+
 ├── public/
+
 └── README.md
