@@ -5,13 +5,11 @@ from wordcloud import generate_wordcloud
 def main(text):
   text = parser(text)
 
-  if text is None:
-    return
-
   frequencies = word_counter(text)
-
+  print(frequencies)
+  
   generate_wordcloud(text)
 
 # Test Function
 if __name__ == "__main__":
-    main(text)
+    main("demo.txt")
