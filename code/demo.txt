@@ -1,0 +1,5 @@
+Hello! This is a demonstration text (.txt) file.
+
+this File is for testing purposes. Going through text can be used in data science as well as in other fields. Hopefully the test goes well, and the program works. 
+
+Good luck!
