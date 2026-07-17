@@ -25,7 +25,7 @@ def word_counter(txt):
       pd.set_option('display.max_columns', None)
       pd.set_option('display.max_colwidth', None)
 
-      print(words_table)
+      return words_table
   
   except FileNotFoundError:
     print("File not found.")
