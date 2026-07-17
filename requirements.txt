@@ -1,3 +1,6 @@
+# Frequencies
+pandas
+
+# Word Cloud
 matplotlib
 wordcloud
-pandas
