@@ -1,31 +1,9 @@
-# What Makes an Exoplanet Habitable?
+# Simple Text Analyzer
 
 ## Overview
-An exploratory data analysis project that ranks the habitability of thousands of exoplanets based on how similar its size, temperature, orbit, and star type is to Earth.
-
-- Exploratory data analysis of thousands of exoplanets
-- Interactive plots showing where planets lie relative to their stars
-- A classification model to identify potentially habitable candidates
-- Feature importance to explain which variables matter most
+A simple analyzer that parses through a .txt file and counts the number of times words appear in it. The frequencies of these words are displayed and also visualized as a word cloud. 
 
 ## Toolkit/Python Libraries Used
-pandas, numPy, matplotlib, seaborn, scikit-learn
+word cloud
 
 This project was coded in Google Colaboratory.
-
-## Analysis Performed
-- Data cleaning and restructuring
-- Exploratory data analysis
-- Visualizations
-- Classification
-- Feature importance
-
-## Data Source
-Datasets: TESS Project Candidates and TESS Confirmed Planets
-
-Source: NASA Exoplanet Archive
-
-## Key Findings
-- Which stars are most likely to host habitable planets?
-- Which planetary properties matter most?
-- Can you predict whether a planet lies in the habitable zone?
