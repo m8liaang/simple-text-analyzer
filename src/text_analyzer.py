@@ -18,8 +18,8 @@ def word_counter(txt):
         txt_words[word] = txt_words.get(word, 0) + 1
         
         # Convert dictionary into df (organized into a table, highest to lowest frequencies)
-        words_table = pd.DataFrame(txt_words.items(), columns=['Word', 'Frequency'])
-        words_table = words_table.sort_values(by='Frequency', ascending=False)
+      words_table = pd.DataFrame(txt_words.items(), columns=['Word', 'Frequency'])
+      words_table = words_table.sort_values(by='Frequency', ascending=False)
         
       pd.set_option('display.max_rows', None)
       pd.set_option('display.max_columns', None)
