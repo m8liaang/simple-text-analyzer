@@ -8,14 +8,18 @@ re, pandas, matplotlib, wordcloud
 
 This project was coded in Google Colaboratory.
 
+
+```text
 my-project/
-
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── src/
-
 │   ├── components/
-
+│   │   ├── Button.js
+│   │   └── Navbar.js
 │   └── index.js
-
-├── public/
-
+├── .gitignore
+├── package.json
 └── README.md
+```
