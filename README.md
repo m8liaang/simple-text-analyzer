@@ -1,7 +1,7 @@
 # Simple Text Analyzer
 
 ## Overview
-A simple analyzer that parses through a .txt file and counts the number of times words appear in it. The frequencies of these words are displayed and also visualized as a word cloud. 
+A simple analyzer that parses through a .txt file and counts the number of times words appear in it. The frequencies of these words are displayed and also visualized as a word cloud. The purpose of this project was to practice programming in Python.
 
 ## Toolkit/Python Libraries Used
 | Layer | Python Library (or Libraries)|
