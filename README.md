@@ -4,11 +4,14 @@
 A simple analyzer that parses through a .txt file and counts the number of times words appear in it. The frequencies of these words are displayed and also visualized as a word cloud. 
 
 ## Toolkit/Python Libraries Used
-re, pandas, matplotlib, wordcloud
+| Layer | Python Library (or Libraries)|
+| --- | --- |
+| Frequencies | re, pandas |
+| Word Cloud | matplotlib, wordcloud |
 
-This project was coded in Google Colaboratory.
+This project was coded in Google Colaboratory. Demo was done in Google Colaboratory.
 
-## Structure
+## Project Structure
 ```text
 simple-text-analyzer/
 ├── data/
@@ -20,4 +23,5 @@ simple-text-analyzer/
 │   ├── parser.py
 │   ├── wordcloud.py
 └── README.md
+└── requirements.txt
 ```
