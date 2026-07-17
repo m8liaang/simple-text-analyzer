@@ -2,6 +2,7 @@ def parser(filename):
   try:
     with open(filename) as text:
       text = text.read()
+    return text
 
   except FileNotFoundError:
     print("File not found.")
