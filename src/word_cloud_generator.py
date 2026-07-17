@@ -3,8 +3,12 @@ from wordcloud import WordCloud
 
 # Function for Generating Word Cloud
 def generate_wordcloud(txt):
-  with open(txt) as file:
-    text = file.read()
+  try:
+    with open(txt) as file:
+      text = file.read()
+  except FileNotFound Error:
+    print("File not found.")
+    return
 
   wordcloud = WordCloud(
       width=800,
@@ -17,6 +21,8 @@ def generate_wordcloud(txt):
   plt.figure(figsize=(10, 10))
   plt.imshow(wordcloud, interpolation='bilinear')
   plt.axis("off")
+
+  plt.savefig("data/output/wordcloud.png", dpi=300, bbox_inches="tight")
 
   plt.show()
 
